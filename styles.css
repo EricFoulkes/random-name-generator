@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 h1 {
-    color: blanchedalmond;
+    color: black;
     text-align: center;
     font-family: 'Montserrat';
     z-index: +2;
@@ -13,6 +13,8 @@ h2 {
     font-family: 'Montserrat';
     z-index: +2;
 }
+
+/*You can change the font color to white in dark mode but currently ima put it to Black*/
 
 button {
     background-color: #FF5C5C; /* Green */
@@ -51,6 +53,8 @@ width: 75px;
 height: 75px;
 left: 353px;
 top: 555.41px;
+z-index: -1;
+border-radius: 100px;
 
 background: rgba(254, 119, 119, 0.9);
 transform: rotate(-15deg);
@@ -66,6 +70,8 @@ width: 150px;
 height: 150px;
 left: 299px;
 top: -25px;
+z-index: -1;
+border-radius: 100px;
 
 background: #FE7777;
 }
@@ -78,6 +84,7 @@ width: 100px;
 height: 100px;
 left: 191px;
 top: 693px;
+z-index: -1;
 
 background: rgba(254, 119, 119, 0.75);
 border-radius: 25px;
@@ -91,6 +98,8 @@ width: 100px;
 height: 100px;
 left: 106.46px;
 top: 531.38px;
+z-index: -1;
+border-radius: 100px;
 
 background: rgba(254, 119, 119, 0.6);
 transform: rotate(11deg);
@@ -104,6 +113,8 @@ width: 58px;
 height: 57px;
 left: 162px;
 top: 272px;
+z-index: -1;
+border-radius: 100px;
 
 background: rgba(254, 119, 119, 0.55);
 }
@@ -116,6 +127,8 @@ width: 96px;
 height: 96px;
 left: 175px;
 top: 297px;
+z-index: -1;
+border-radius: 100px;
 
 background: rgba(254, 119, 119, 0.55);
 }
@@ -128,6 +141,8 @@ width: 100px;
 height: 100px;
 left: 16px;
 top: 315px;
+z-index: -1;
+border-radius: 100px;
 
 background: rgba(254, 119, 119, 0.8);
 }
@@ -140,6 +155,8 @@ width: 100px;
 height: 100px;
 left: 290px;
 top: 75px;
+z-index: -1;
+border-radius: 100px;
 
 background: rgba(254, 119, 119, 0.5);
 }
@@ -152,6 +169,8 @@ width: 100px;
 height: 100px;
 left: 226px;
 top: 545px;
+z-index: -1;
+border-radius: 100px;
 
 background: rgba(254, 119, 119, 0.5);
 }
@@ -164,6 +183,8 @@ width: 100px;
 height: 100px;
 left: 116px;
 top: 69px;
+z-index: -1;
+border-radius: 100px;
 
 background: rgba(254, 119, 119, 0.4);
 }
@@ -176,6 +197,8 @@ width: 175px;
 height: 175px;
 left: -42px;
 top: -37px;
+z-index: -1;
+border-radius: 100px;
 
 background: rgba(254, 119, 119, 0.3);
 }
@@ -188,6 +211,8 @@ width: 175px;
 height: 175px;
 left: 96px;
 top: 810px;
+z-index: -1;
+border-radius: 100px;
 
 background: rgba(254, 119, 119, 0.3);
 }
@@ -200,6 +225,8 @@ width: 100px;
 height: 100px;
 left: 16px;
 top: 426px;
+z-index: -1;
+border-radius: 100px;
 
 background: rgba(254, 119, 119, 0.2);
 }
@@ -212,6 +239,7 @@ width: 83px;
 height: 83px;
 left: 282px;
 top: 254.08px;
+z-index: -1;
 
 background: rgba(254, 119, 119, 0.85);
 border-radius: 25px;
@@ -226,6 +254,7 @@ width: 100px;
 height: 100px;
 left: -4px;
 top: 800px;
+z-index: -1;
 
 background: rgba(254, 119, 119, 0.65);
 border-radius: 25px;
@@ -239,6 +268,7 @@ width: 100px;
 height: 100px;
 left: 78px;
 top: 183px;
+z-index: -1;
 
 background: rgba(254, 119, 119, 0.35);
 border-radius: 25px;
@@ -252,6 +282,7 @@ width: 100px;
 height: 100px;
 left: 46px;
 top: 590px;
+z-index: -1;
 
 background: rgba(254, 119, 119, 0.35);
 border-radius: 25px;
@@ -265,6 +296,7 @@ width: 100px;
 height: 100px;
 left: 250px;
 top: 418px;
+z-index: -1;
 
 background: rgba(254, 119, 119, 0.25);
 border-radius: 25px;
@@ -278,6 +310,7 @@ width: 100px;
 height: 100px;
 left: 313px;
 top: 729px;
+z-index: -1;
 
 background: rgba(254, 119, 119, 0.15);
 border-radius: 25px;
@@ -291,6 +324,7 @@ width: 100px;
 height: 100px;
 left: 324px;
 top: 842.26px;
+z-index: -1;
 
 background: rgba(254, 119, 119, 0.95);
 border-radius: 25px;
@@ -302,6 +336,7 @@ transform: rotate(-25deg);
     height: 100px;
     left: 500px;
     top: 842.26px;
+    z-index: -1;
     
     background: rgba(254, 119, 119, 0.95);
     border-radius: 25px;
@@ -313,8 +348,10 @@ transform: rotate(-25deg);
     position: relative;
     width: 75px;
     height: 75px;
-    left: 850px;
+    left: 800px;
     top: 555.41px;
+    z-index: -1;
+    border-radius: 100px;
     
     background: rgba(254, 119, 119, 0.9);
     transform: rotate(-15deg);
@@ -328,9 +365,10 @@ transform: rotate(-25deg);
     position: absolute;
     width: 150px;
     height: 150px;
-    left: 796px;
+    left: 746px;
     top: -25px;
     z-index: -1;
+    border-radius: 100px;
     
     background: #FE7777;
     }
@@ -341,8 +379,10 @@ transform: rotate(-25deg);
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 688px;
+    left: 638px;
     top: 693px;
+    z-index: -1;
+    border-radius: 100px;
     
     background: rgba(254, 119, 119, 0.75);
     border-radius: 25px;
@@ -354,8 +394,10 @@ transform: rotate(-25deg);
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 603px;
+    left: 553px;
     top: 531.38px;
+    z-index: -1;
+    border-radius: 100px;
     
     background: rgba(254, 119, 119, 0.6);
     transform: rotate(11deg);
@@ -367,8 +409,10 @@ transform: rotate(-25deg);
     position: absolute;
     width: 58px;
     height: 57px;
-    left: 659px;
+    left: 609px;
     top: 272px;
+    z-index: -1;
+    border-radius: 100px;
     
     background: rgba(254, 119, 119, 0.55);
     }
@@ -379,8 +423,10 @@ transform: rotate(-25deg);
     position: absolute;
     width: 96px;
     height: 96px;
-    left: 672px;
+    left: 622px;
     top: 297px;
+    z-index: -1;
+    border-radius: 100px;
     
     background: rgba(254, 119, 119, 0.55);
     }
@@ -391,8 +437,10 @@ transform: rotate(-25deg);
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 513px;
+    left: 563px;
     top: 315px;
+    z-index: -1;
+    border-radius: 100px;
     
     background: rgba(254, 119, 119, 0.8);
     }
@@ -403,8 +451,10 @@ transform: rotate(-25deg);
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 787px;
+    left: 737px;
     top: 75px;
+    z-index: -1;
+    border-radius: 100px;
     
     background: rgba(254, 119, 119, 0.5);
     }
@@ -415,8 +465,10 @@ transform: rotate(-25deg);
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 723px;
+    left: 673px;
     top: 545px;
+    z-index: -1;
+    border-radius: 100px;
     
     background: rgba(254, 119, 119, 0.5);
     }
@@ -427,8 +479,10 @@ transform: rotate(-25deg);
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 613px;
+    left: 563px;
     top: 69px;
+    z-index: -1;
+    border-radius: 100px;
     
     background: rgba(254, 119, 119, 0.4);
     }
@@ -439,8 +493,10 @@ transform: rotate(-25deg);
     position: absolute;
     width: 175px;
     height: 175px;
-    left: 455px;
+    left: 405px;
     top: -37px;
+    z-index: -1;
+    border-radius: 100px;
     
     background: rgba(254, 119, 119, 0.3);
     }
@@ -451,8 +507,10 @@ transform: rotate(-25deg);
     position: absolute;
     width: 175px;
     height: 175px;
-    left: 593px;
+    left: 543px;
     top: 810px;
+    z-index: -1;
+    border-radius: 100px;
     
     background: rgba(254, 119, 119, 0.3);
     }
@@ -463,8 +521,10 @@ transform: rotate(-25deg);
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 513px;
+    left: 463px;
     top: 426px;
+    z-index: -1;
+    border-radius: 100px;
     
     background: rgba(254, 119, 119, 0.2);
     }
@@ -475,7 +535,7 @@ transform: rotate(-25deg);
     position: absolute;
     width: 83px;
     height: 83px;
-    left: 779px;
+    left: 729px;
     top: 254.08px;
     z-index: -1;
     
@@ -490,7 +550,7 @@ transform: rotate(-25deg);
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 493px;
+    left: 443px;
     top: 800px;
     z-index: -1;
     
@@ -504,7 +564,7 @@ transform: rotate(-25deg);
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 575px;
+    left: 525px;
     top: 183px;
     z-index: -1;
     
@@ -518,7 +578,7 @@ transform: rotate(-25deg);
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 543px;
+    left: 493px;
     top: 590px;
     
     background: rgba(254, 119, 119, 0.35);
@@ -532,7 +592,7 @@ transform: rotate(-25deg);
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 747px;
+    left: 697px;
     top: 418px;
     z-index: -1;
     
@@ -546,7 +606,7 @@ transform: rotate(-25deg);
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 810px;
+    left: 760px;
     top: 729px;
     z-index: -1;
     
@@ -562,7 +622,7 @@ transform: rotate(-25deg);
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 821px;
+    left: 771px;
     top: 842.26px;
   
     
